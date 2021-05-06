@@ -1,7 +1,6 @@
 const JWT = require("jsonwebtoken");
 const moment = require("moment");
 const config = require("../config");
-
 const authJWT = {}
 
 authJWT.createToken = (user) => {
